@@ -1,0 +1,8 @@
+> library(readxl)
+> Book2 <- read_excel("Book2.xlsx")
+> View(Book2)
+> swetha<- read_excel("Book2.xlsx")
+> mean(swetha$`Coal - (TMT)`)
+[1] 888405.6
+> sd(swetha$`Total Coal & Lignite - (TMT)`)
+[1] 58396.21
